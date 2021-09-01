@@ -5,3 +5,7 @@ source "https://rubygems.org"
 
 gem 'rspec'
     gem 'pry'
+
+def starts_with_a_vowel?(word)
+    word.match(/\s[aeiouAEIOU]/) ? true : false
+end
